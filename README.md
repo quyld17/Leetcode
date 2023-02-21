@@ -8,4 +8,4 @@ Current amount of finished problems:
     
     + Medium: 7
     
-    + Hard: 0
+    + Hard: 1
