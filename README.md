@@ -10,4 +10,5 @@ Current amount of finished problems:
     + Total:    48
 
 Full list of my Coding Questions:
+
 https://docs.google.com/spreadsheets/d/1sjWb8iAzSOUcUilvH-azFQCuCVzCQZcnZi4WO_6xZXA/edit#gid=1656161033
