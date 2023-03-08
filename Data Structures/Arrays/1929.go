@@ -14,14 +14,9 @@
 // - ans = [1,2,1,1,2,1]
 
 func getConcatenation(nums []int) []int {
-    pointer := 0
-    ans := []int{}
-    for pointer < len(nums) {
-        ans = append(ans, nums[pointer])
-        pointer += 1
-        if len(ans) == len(nums) {
-            pointer = 0
-        }
+    ans := nums
+    for _, value := range nums {
+        ans = append(ans, value)
     }
     return ans
 }
