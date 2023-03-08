@@ -19,7 +19,7 @@ func getConcatenation(nums []int) []int {
     for pointer < len(nums) {
         ans = append(ans, nums[pointer])
         pointer += 1
-        if pointer == len(nums) && len(ans) == len(nums) {
+        if len(ans) == len(nums) {
             pointer = 0
         }
     }
