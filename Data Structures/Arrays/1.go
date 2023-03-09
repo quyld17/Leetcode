@@ -10,14 +10,12 @@
 // Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 func twoSum(nums []int, target int) []int {
-    var answer []int
-    for i := 0; i < len(nums) - 1; i++ {
-        for k := i+1; k < len(nums); k++ {
-            if nums[i] + nums[k] == target {
-                answer = append(answer, i, k)
-                break
-            }
+    sumMap := map[int]int{}
+    for index, value := range nums {
+        if requiredIndex, isPresent := sumMap[target - value]; isPresent {
+            return []int{requiredIndex, index}
         }
+        sumMap[value] = index
     }
-    return answer
+    return []int{}
 }
