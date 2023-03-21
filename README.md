@@ -5,9 +5,9 @@ Name of the file stands for the problem's number on leetcode.com.
 Current amount of finished problems:
 
     + Easy:     46
-    + Medium:   10
-    + Hard:     1
-    + Total:    57
+    + Medium:   11
+    + Hard:     2
+    + Total:    59
 
 Full list of my Coding Questions:
 
