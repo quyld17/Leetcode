@@ -4,10 +4,10 @@ Name of the file stands for the problem's number on leetcode.com.
 
 Current amount of finished problems:
 
-    + Easy:     47
+    + Easy:     48
     + Medium:   13
     + Hard:     2
-    + Total:    62
+    + Total:    63
 
 Full list of my Coding Questions:
 
