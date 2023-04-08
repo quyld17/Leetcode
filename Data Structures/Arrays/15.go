@@ -15,15 +15,7 @@
 // Notice that the order of the output and the order of the triplets does not matter.
 
 func threeSum(nums []int) [][]int {
-    for i := 0; i < len(nums)-1; i++ {
-        for j := i+1; j < len(nums); j++ {
-            if nums[j] < nums[i] {
-                swap := nums[j]
-                nums[j] = nums[i]
-                nums[i] = swap
-            } 
-        }
-    }
+    sort.Ints(nums)
     tripletSet := [][]int{}
     for i := 0; i < len(nums)-2; i++ {
         if i > 0 && nums[i] == nums[i-1]  {
