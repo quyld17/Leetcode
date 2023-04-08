@@ -9,4 +9,4 @@ Current amount of finished problems:
     + Hard:     2
     + Total:    66
 
-Full <a target="_blank" href="https://docs.google.com/spreadsheets/d/1sjWb8iAzSOUcUilvH-azFQCuCVzCQZcnZi4WO_6xZXA/edit#gid=1656161033">list</a> of my Coding Questions.
+<a target="_blank" href="https://docs.google.com/spreadsheets/d/1sjWb8iAzSOUcUilvH-azFQCuCVzCQZcnZi4WO_6xZXA/edit#gid=1656161033">Full list</a> of my Coding Questions.
