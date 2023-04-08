@@ -6,7 +6,7 @@ Current amount of finished problems:
 
     + Easy:     51
     + Medium:   16
-    + Hard:     2
-    + Total:    69
+    + Hard:     3
+    + Total:    70
 
 <a target="_blank" href="https://docs.google.com/spreadsheets/d/1sjWb8iAzSOUcUilvH-azFQCuCVzCQZcnZi4WO_6xZXA/edit#gid=1656161033">Full list</a> of my Coding Questions.
