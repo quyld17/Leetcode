@@ -11,31 +11,19 @@
 
 
 func rotate(nums []int, k int)  {
-    if k >= len(nums) {
-        k = k % len(nums)
-    }
-    l, r := len(nums)-k, len(nums)-1
+    k = k % len(nums)
+    n := len(nums) - 1
+    reverse(nums, 0,n-k)
+    reverse(nums, n-k+1, n)
+    reverse(nums, 0, n)
+}
+
+func reverse(nums []int, l int, r int) {
     for l < r {
         swap := nums[l]
         nums[l] = nums[r]
         nums[r] = swap
         l += 1
         r -= 1
-    }
-    l, r = 0, len(nums)-1-k
-    for l < r {
-        swap := nums[l]
-        nums[l] = nums[r]
-        nums[r] = swap
-        l += 1
-        r -= 1
-    }
-    l, r = 0, len(nums)-1
-    for l < r {
-        swap := nums[l]
-        nums[l] = nums[r]
-        nums[r] = swap
-        l += 1
-        r -= 1
-    }
+    }   
 }
