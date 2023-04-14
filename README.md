@@ -4,8 +4,8 @@ Name of the file stands for the problem's number on <a target="_blank" href="htt
 
 Current amount of finished problems:
 
-    + Easy:     65
-    + Medium:   24
+    + Easy:     67
+    + Medium:   25
     + Hard:     3
     + Total:    92
 
